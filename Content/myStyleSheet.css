@@ -1,0 +1,181 @@
+﻿/*********************************
+  Class: CS 290-400
+  Name: Chelsea Egan
+  Project - Main Style Sheet
+*********************************/
+
+/*********************************
+GENERAL STYLING
+*********************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+/*********************************
+HOME PAGE STYLING
+Source: https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+*********************************/
+.pad-section {
+  padding: 50px 0;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 300;
+}
+
+#home {
+  text-align: center;
+  color: #fff;
+  background: #761fa6;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -mox-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+  #home img {
+    width: 25%;
+  }
+
+#about .lead {
+  text-align: center;
+}
+
+.banner-text {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.srcFont {
+  font-weight: 300;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.home-carousel-col {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/*********************************
+SUBPAGE STYLING
+*********************************/
+/* Subpage banners */
+.intro-text {
+  font-size: 2em;
+  background-color: #761fa6;
+  color: white;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+}
+
+/* Cube variation cards*/
+.card {
+  min-height: 400px;
+  margin-top: 10px;
+}
+
+.card-body {
+  background-color: lightgray;
+}
+
+.card img {
+  max-width: 200px;
+  margin: 2px auto;
+}
+
+.card-title {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.purchase-btn {
+  text-align: center;
+}
+
+/**********************************
+  HISTORY PAGE
+**********************************/
+/* Main text - scroll section */
+#scrollNav {
+  border: none;
+  height: 510px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.history-text {
+  min-height: 800px;
+  max-height: 800px;
+  overflow-x: hidden;
+}
+
+/* Side bar navigation */
+.history-nav {
+  top: 150px;
+  list-style: none;
+  line-height: 2em;
+  padding: 0;
+}
+
+.history-nav-item .history-link {
+  color: black;
+  text-decoration: none;
+}
+/*  CUSTOMIZED SCROLLBAR
+  SOURCE: https://www.quackit.com/html/codes/html_scroll_box.cfm
+*/
+#scrollNav::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+#scrollNav::-webkit-scrollbar-track {
+  border: 1px solid #a6e821;
+  border-radius: 10px;
+}
+
+#scrollNav::-webkit-scrollbar-thumb {
+  background: #a6e821;
+  border-radius: 10px;
+}
+
+  #scrollNav::-webkit-scrollbar-thumb:hover {
+    background: #669a00;
+  }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.rightImgBox img, .leftImgBox img {
+  width: 75%;
+  margin: auto;
+}
+
+.rightImgBox, .leftImgBox {
+  text-align: center;
+}
