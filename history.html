@@ -1,0 +1,154 @@
+﻿<!-------------------------------
+  Class: CS 290-400
+  Name: Chelsea Egan
+  Project - History Subpage
+-------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>History</title>
+
+  <!-- FLAVICON -->
+  <link rel="icon" type="image/png" href="Images/logo.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="Content/myStyleSheet.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,800i" rel="stylesheet">
+</head>
+<body>
+
+  <!-------------------------------
+    NAVIGATION BAR
+  -------------------------------->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="Images/logo.png" alt="Logo" style="width: 40px;" />
+    </a>
+
+    <!-- Toggler/collapsible button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="speedCubers.html">Speed Cubing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cubeTypes.html">Variations</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-------------------------------
+    SUBPAGE BANNER
+  -------------------------------->
+  <div class="intro-text">
+    <div class="text-vcenter">
+      <p>The History of the Rubik's Cube</p>
+    </div>
+  </div>
+
+  <!-------------------------------
+    SCROLLSPY
+    Source: https://www.w3schools.com/bootstrap4/bootstrap_scrollspy.asp
+  -------------------------------->
+  <div class="container">
+    <div class="row">
+
+      <!-- Side Navigation -->
+      <div class="col-lg-2" id="myScrollspy">
+        <ul class="history-nav flex-column" id="historyScrollNav">
+          <li class="history-nav-item">
+            <a class="history-link" href="#creator" id="creatorLink">Creator</a>
+          </li>
+          <li class="history-nav-item">
+            <a class="history-link" href="#intro" id="introLink">Introduction</a>
+          </li>
+          <li class="history-nav-item">
+            <a class="history-link" href="#impact" id="impactLink">Impact</a>
+          </li>
+          <li class="history-nav-item">
+            <a class="history-link" href="#current" id="currentLink">Current</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-1"></div>
+
+      <!-- Main Content -->
+      <div class="col-lg-9" id="scrollNav">
+        <a name="creator"></a><div class="history-text" id="creator">
+          <h5>Meet the creator of the Rubik's Cube!</h5>
+          <div class="row">
+            <div class="leftTextBox col-lg-8 col-md-7"><p>Ernő Rubik is a Hungarian inventor, architect, and professor of architecture. He is best known for the invention of mechanical puzzles. Starting with blocks of wood and rubber bands, he set out to create a structure which would allow the individual pieces to move without the whole structure falling apart. Rubik realized that it could be manufactured relatively easily and might have appeal to a larger audience. Rubik was able to find a small company that worked with plastic and made chess pieces. The cube was originally known in Hungary as the 'Magic Cube'.</p></div><div class="rightImgBox col-lg-4 col-md-5"><img src="Images/Erno_Rubik_Genius_Gala_2014.jpg" /><p class="srcFont"><a href="https://en.wikipedia.org/wiki/Ern%C5%91_Rubik" target="_blank">Source: Wikipedia</a></p></div>
+          </div>
+        </div>
+        <a name="intro"></a><div id="intro" class="history-text">
+          <h5>The Rubik's Cube is introduced to the world!</h5>
+          <div class="row">
+            <div class="leftImgBox col-lg-4 col-md-5"><img src="Images/toyOfTheYear.jpg" /><p class="srcFont"><a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube " target="_blank">Source: Wikipedia</a></p></div>
+            <div class="rightTextBox col-lg-8 col-md-7">
+              <p>After the first batches of Rubik's Cubes were released in May 1980, initial sales were modest, but by 1981 Rubik's Cube had become a craze, and it is estimated that in the period from 1980 to 1983 around 200 million Rubik's Cubes were sold worldwide. In June 1981 The Washington Post reported that the Rubik's Cube is "a puzzle that's moving like fast food right now ... this year's Hoola Hoop or Bongo Board".</p><p>In October 1982 The New York Times reported that sales had fallen and that "the craze has died", and by 1983 it was clear that sales had plummeted.</p>
+            </div>
+          </div>
+        </div>
+        <a name="impact"></a><div id="impact" class="history-text">
+          <h5>The cultural impact</h5>
+          <div class="row">
+            <div class="leftTextBox col-lg-8 col-md-7"><p>The ability to solve a Rubik's Cube quickly is often used as a way of establishing a character's high intelligence. The films Brick, Armageddon, Dude, etc. include sequences which depict this.</p><p>An interactive exhibit based on the Rubik's Cube opened at LSC in Jersey City, NJ, in April 2014 in celebration of the 40th anniversary of the Cube's invention before traveling internationally for 7 years.</p><p>To commemorate the 40th anniversary of the cube's invention, Google made an interactive doodle of the cube on May 19, 2014. The doodle allowed users to solve the cube. </p></div><div class="rightImgBox col-lg-4 col-md-5"><img src="Images/Huge-Cube.jpg" /><p class="srcFont"><a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube_in_popular_culture" target="_blank">Source: Wikipedia</a></p></div>
+          </div>
+        </div>
+        <a name="current"></a><div id="current" class="history-text">
+          <h5>What's happening with the Rubik's Cube today?</h5>
+          <div class="row">
+            <div class="leftImgBox col-lg-4 col-md-5"><img src="Images/1280px-Rubik's_TouchCube.jpg" /><p class="srcFont"><a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube " target="_blank"> Source: Wikipedia</a></p></div>
+            <div class="rightTextBox col-lg-8 col-md-7">
+              <p>Rubik's Cubes continued to be marketed and sold throughout the 1980s and 90s, but it was not until the early 2000s that interest in the Cube began increasing again. In the US sales doubled between 2001 and 2003, and The Boston Globe remarked that it was "becoming cool to own a Cube again". The 2003 World Rubik's Games Championship was the first speedcubing tournament since 1982. Annual sales of Rubik branded cubes were said to have reached 15 million worldwide in 2008. Part of the new appeal was ascribed to the advent of Internet video sites, such as YouTube, which allowed fans to share their solving strategies. Following the expiration of Rubik's patent in 2000, other brands of cubes appeared, especially from Chinese companies. Many of these Chinese branded cubes have been engineered for speed and are favoured by speedcubers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------
+    FOOTER
+  -------------------------------->
+  <footer>
+    <hr />
+    <div class="container">
+      <p class="text-right">Copryright &copy; Chelsea Egan 2018</p>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP JQUERY, POPPER.JS, JS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- MY JS -->
+  <script src="Scripts/myJavaScript.js"></script>
+  <script src="Scripts/jquery.waypoints.min.js"></script>
+</body>
+</html>

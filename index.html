@@ -1,0 +1,175 @@
+﻿<!-------------------------------
+  Class: CS 290-400
+  Name: Chelsea Egan
+  Project - Home Page
+-------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chelsea Egan's Project Page</title>
+
+  <!-- FLAVICON -->
+  <link rel="icon" type="image/png" href="Images/logo.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="Content/myStyleSheet.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800,800i" rel="stylesheet">
+</head>
+<body>
+  <!-------------------------------
+    NAVIGATION BAR
+  -------------------------------->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="Images/logo.png" alt="Logo" style="width: 40px;" />
+    </a>
+
+    <!-- Toggler/collapsible button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="speedCubers.html">Speed Cubing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cubeTypes.html">Variations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-------------------------------
+    HOMEPAGE BANNER
+    SOURCE: https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+  -------------------------------->
+  <div id="home" class="home">
+    <div class="text-vcenter">
+      <img class="img-fluid" src="Images/logo.png" /><br />
+      <span class="display-4">Cracking the Rubik's Code</span>
+      <hr class="star-light" />
+      <p class="banner-text">A beginner's guide to the Rubik's cube</p>
+    </div>
+  </div>
+
+  <!-------------------------------
+    HOMEPAGE CONTENT
+  -------------------------------->
+  <div id="about" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-left">
+          <p>Want to impress your family, colleagues and friends? Looking for ways to beef up your Tinder profile? Spending too much time binge watching Netflix and browsing Reddit? Hoping to strengthen your finger muscles and sharpen your mind?</p>
+          <p class="lead">Become a master of The Cube</p>
+          <p>Click <a href="Files/RubiksInstructions.pdf" data-toggle="tooltip" title="Source: http://www.rossnazirullah.com/students/images/Rubiks.pdf" download>here</a> to download full step-by-step instructions for solving a 3x3 Rubik's cube.</p>
+        </div>
+        <div class="col-lg-8 home-carousel-col">
+          <!------------------------
+            CAROUSEL
+            SOURCE: https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp
+            IMAGES SOURCE: http://www.learnhowtosolvearubikscube.com/how-to-solve-a-rubiks-cube-solution-overview/
+          ------------------------>
+          <div id="rubiksImages" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#rubiksImages" data-slide-to="0" class="active"></li>
+              <li data-target="#rubiksImages" data-slide-to="1"></li>
+              <li data-target="#rubiksImages" data-slide-to="2"></li>
+              <li data-target="#rubiksImages" data-slide-to="3"></li>
+              <li data-target="#rubiksImages" data-slide-to="4"></li>
+              <li data-target="#rubiksImages" data-slide-to="5"></li>
+            </ul>
+
+            <!-- Slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Images/Carousel/whiteCross.png" alt="Blank" class="d-block w-100 carousel-img" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>1. Find the White Cross</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Carousel/2_whiteCorners.png" alt="White Corners" class="carousel-img d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>2. Fix all White Corners</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Carousel/3_middleLayer.png" alt="Middle Layer" class="carousel-img d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>3. Fix the Middle Layer</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Carousel/4_yellowCross.png" alt="Middle Layer" class="carousel-img d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>4. Find the Yellow Cross</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Carousel/5_yellowCorners.png" alt="Middle Layer" class="carousel-img d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>5. Fix all Yellow Corners</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Carousel/6_complete.png" alt="Middle Layer" class="carousel-img d-block w-100" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>You're done!</h5>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#rubiksImages" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#rubiksImages" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------
+    FOOTER
+  -------------------------------->
+  <footer>
+    <hr />
+    <div class="container">
+      <p class="text-right">Copryright &copy; Chelsea Egan 2018</p>
+      <p class="srcFont">Carousel images source: http://www.learnhowtosolvearubikscube.com/how-to-solve-a-rubiks-cube-solution-overview/ </p>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP JQUERY, POPPER.JS, JS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
